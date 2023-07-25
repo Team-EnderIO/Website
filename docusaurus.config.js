@@ -134,6 +134,12 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+  customFields: {
+    aklizUrl: "https://www.akliz.net/enderio",
+    curseforgeUrl: "https://www.curseforge.com/minecraft/mc-mods/ender-io",
+    modrinthUrl: "https://modrinth.com/mod/enderio",
+  }
 };
 
 module.exports = config;

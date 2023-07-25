@@ -1,0 +1,12 @@
+.referral {
+  display: table;
+  margin: 2rem 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.referralText {
+  display: table-caption;
+  caption-side: bottom;
+  text-align: center;
+}
