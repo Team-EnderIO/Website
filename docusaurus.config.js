@@ -104,15 +104,15 @@ const config = {
             items: [
               {
                 label: 'Guide',
-                to: '/docs/guide',
+                to: '/docs/guide/intro',
               },
               {
                 label: 'Wiki',
-                to: '/docs/wiki',
+                to: '/docs/wiki/intro',
               },
               {
                 label: 'Technical Details',
-                to: '/docs/technical',
+                to: '/docs/technical/intro',
               },
             ],
           },
