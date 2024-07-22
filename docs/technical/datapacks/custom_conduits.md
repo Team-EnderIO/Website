@@ -32,7 +32,9 @@ This is an example conduit JSON (this is for a Redstone Conduit). All conduits s
 
 The following energy conduit types are built into Ender IO.
 
-### enderio:energy
+### enderio\:energy
+
+Transports energy, with a buffer proportional to the transfer rate and size of the network.
 
 | Field            | Type | Description                               |
 |------------------|:----:|-------------------------------------------|
@@ -50,7 +52,9 @@ Example:
 }
 ```
 
-### enderio:fluid
+### enderio\:fluid
+
+Transports fluid between containers.
 
 | Field            | Type | Description                                         |
 |------------------|:----:|-----------------------------------------------------|
@@ -70,7 +74,9 @@ Example:
 }
 ```
 
-### enderio:item
+### enderio\:item
+
+Transports items between containers.
 
 :::info
 Item conduits are not currently configurable, but may be in a future version.
@@ -87,7 +93,9 @@ Example:
 }
 ```
 
-### enderio:redstone
+### enderio\:redstone
+
+Transports Redstone signals.
 
 | Field            |           Type            | Description                                                      |
 |------------------|:-------------------------:|------------------------------------------------------------------|
@@ -112,9 +120,9 @@ Redstone conduits may receive further configuration options in future.
 
 These are types added by the official Ender IO Conduits addon (included by default).
 
-:::info
+:::warning
 
-Most of these conduit types require another mod to be loaded, so make sure that you add a condition on that mod being loaded, like such:
+All of these conduit types require another mod to be loaded, so make sure that you add a condition on that mod being loaded, like such:
 
 ```json
 {
@@ -130,7 +138,9 @@ Most of these conduit types require another mod to be loaded, so make sure that 
 
 :::
 
-### enderio:chemical (mekanism)
+### enderio\:chemical (mekanism)
+
+Transfers Mekanism chemicals.
 
 | Field           | Type | Description                    |
 |-----------------|:----:|--------------------------------|
@@ -155,7 +165,9 @@ Example:
 }
 ```
 
-### enderio:heat (mekanism)
+### enderio\:heat (mekanism)
+
+Transfers Mekanism Heat.
 
 :::info
 The heat conduit is not currently configurable.
@@ -177,7 +189,9 @@ The heat conduit is not currently configurable.
 }
 ```
 
-### enderio:ae2 (ae2)
+### enderio\:ae2 (ae2)
+
+Behaves like smart (dense) cables in AE2, except they can be placed into a Conduit Bundle.
 
 :::danger
 This will likely change to `enderio:me` (like it was in 1.20.1) before 7.0 is released.
