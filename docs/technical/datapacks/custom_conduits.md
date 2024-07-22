@@ -145,9 +145,10 @@ All of these conduit types require another mod to be loaded, so make sure that y
 
 Transfers Mekanism chemicals.
 
-| Field           | Type | Description                    |
-|-----------------|:----:|--------------------------------|
-| `transfer_rate` | int  | Chemical transfer rate in mb/t |
+| Field               | Type | Description                                            |
+|---------------------|:----:|--------------------------------------------------------|
+| `is_multi_chemical` | bool | Whether this conduit can carry multiple chemical types |
+| `transfer_rate`     | int  | Chemical transfer rate in mb/t                         |
 
 Example:
 ```json
