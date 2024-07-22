@@ -11,6 +11,9 @@ The main components required for a conduit are:
 
 This is an example conduit JSON (this is for a Redstone Conduit). All conduits share a `type`, `description` and `texture` field.
 
+This should be placed into your datapack in the following path:
+`data/<namespace>/enderio/conduit/<your_conduit>.json`
+
 | Field         |           Type            | Description                           |
 |---------------|:-------------------------:|---------------------------------------|
 | `type`        |          string           | The conduit type                      |
