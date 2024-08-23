@@ -217,3 +217,25 @@ Behaves like smart (dense) cables in AE2, except they can be placed into a Condu
   "texture": "enderio:block/conduit/me"
 }
 ```
+
+### enderio\:rs (RS2)
+
+Behaves like a Cable in RS2, but placeable in a Conduit bundle.
+
+Has no configurable settings at this time.
+
+```json
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ],
+  "type": "enderio:rs",
+  "description": {
+    "translate": "item.enderio.rs"
+  },
+  "texture": "enderio:block/conduit/rs"
+}
+```
