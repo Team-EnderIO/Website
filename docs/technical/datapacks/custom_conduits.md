@@ -193,13 +193,9 @@ The heat conduit is not currently configurable.
 }
 ```
 
-### enderio\:ae2 (ae2)
+### enderio\:me (ae2)
 
 Behaves like smart (dense) cables in AE2, except they can be placed into a Conduit Bundle.
-
-:::danger
-This will likely change to `enderio:me` (like it was in 1.20.1) before 7.0 is released.
-:::
 
 | Field      | Type | Description                      |
 |------------|:----:|----------------------------------|
@@ -213,7 +209,7 @@ This will likely change to `enderio:me` (like it was in 1.20.1) before 7.0 is re
       "modid": "ae2"
     }
   ],
-  "type": "enderio:ae2",
+  "type": "enderio:me",
   "description": {
     "translate": "item.enderio.conduit.me"
   },
